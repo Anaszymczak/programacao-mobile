@@ -1,3 +1,5 @@
+//Crie um programa que imprima a tabuada de multiplicação de um número inteiro fornecido pelo usuário.
+// Utilize um loop for para iterar pelos multiplicadores de 1 a 10.
 fun main() {
     // Solicita ao usuário que digite um número inteiro
     println("Digite um número inteiro para ver a tabuada:")

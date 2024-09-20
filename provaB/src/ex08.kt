@@ -1,3 +1,6 @@
+//Escreva um programa que leia o nome de um arquivo e tente abri-lo para leitura.
+// Utilize um bloco try-catch para capturar a exceção FileNotFoundException caso o arquivo não seja encontrado.
+// Implemente um mecanismo de reentrada para que o usuário possa informar um novo nome de arquivo.
 import java.io.File
 import java.io.FileNotFoundException
 

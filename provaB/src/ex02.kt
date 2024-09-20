@@ -1,3 +1,9 @@
+//Crie um programa que receba um número inteiro como entrada e, utilizando a expressão when,
+// imprima uma mensagem diferente para cada um dos seguintes intervalos:
+//Menor que 0
+//Entre 0 e 10
+//Entre 11 e 20
+//Maior que 20
 fun main() {
     // Solicita ao usuário que digite um número inteiro
     println("Digite um número inteiro:")

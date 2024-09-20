@@ -1,8 +1,8 @@
+//Crie uma interface Comparable com um metodo compareTo().
+// Crie classes Produto e Pessoa que implementem a interface Comparable,
+// permitindo a comparação de produtos por preço e de pessoas por idade. Utilize a interface Comparable para ordenar
+// listas de produtos e pessoas.
 import kotlin.Comparable
-
-interface Comparable<T> {
-    fun compareTo(other: T): Int
-}
 
 data class Pessoa(val nome: String, val idade: Int) : Comparable<Pessoa> {
     override fun compareTo(other: Pessoa): Int {

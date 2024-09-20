@@ -1,3 +1,6 @@
+//Escreva um programa que solicite ao usuário um número inteiro e um número decimal.
+// Converta o número inteiro para decimal e o número decimal para inteiro.
+// Imprima os resultados na tela, observando possíveis perdas de precisão.
 fun main() {
     // Irá solicitar para o usuário um número inteiro
     println("Digite um número inteiro:")

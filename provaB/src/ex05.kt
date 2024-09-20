@@ -1,3 +1,6 @@
+//Crie uma classe base FormaGeometrica com os atributos cor e area. Crie subclasses Circulo e Retangulo, adicionando atributos específicos
+//e sobrescrevendo o metoodo calcularArea().
+//Crie uma lista de objetos FormaGeometrica e calcule a área total de todas as formas.
 open class FormaGeometrica(val cor: String) {
     open var area: Double = 0.0
         protected set

@@ -1,3 +1,8 @@
+//Crie uma lista de objetos de uma classe personalizada representando
+// pessoas com nome, idade e altura. Ordene essa lista por:
+//Altura em ordem decrescente.
+//Idade em ordem crescente, considerando a altura como critério de desempate.
+//Nome em ordem alfabética.
 // Definindo a classe Pessoa
 data class Pessoa2(
     val nome: String,

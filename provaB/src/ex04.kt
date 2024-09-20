@@ -1,5 +1,8 @@
+//Crie uma classe ContaBancaria com os atributos titular, numero e saldo. Implemente métodos para depósito, saque e consulta de saldo.
+// Crie um objeto ContaBancaria e realize algumas operações, exibindo as informações da conta após cada operação.
+
 // Classe que representa uma conta bancária
-class ContaBancaria(
+data class ContaBancaria(
     val titular: String, // Nome do titular da conta
     val numero: String,  // Número da conta
     private var saldo: Double = 0.0 // Saldo inicial da conta (0.0)
