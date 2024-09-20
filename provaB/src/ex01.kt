@@ -1,3 +1,5 @@
+import kotlin.math.roundToLong
+
 //Escreva um programa que solicite ao usuário um número inteiro e um número decimal.
 // Converta o número inteiro para decimal e o número decimal para inteiro.
 // Imprima os resultados na tela, observando possíveis perdas de precisão.
@@ -24,11 +26,12 @@ fun main() {
 
     // Verifica se a conversão do decimal foi bem-sucedida
     if (decimalParaInteiro != null) {
-        val inteiro = decimalParaInteiro.toInt()
+
+        val inteiro = decimalParaInteiro.roundToLong()
         println("Número decimal convertido para inteiro: $inteiro")
 
         // Verifica se houve perda de precisão
-        if (inteiro != decimalParaInteiro.toInt()) {
+        if (inteiro != decimalParaInteiro.roundToLong()) {
             println("Atenção: A conversão de decimal para inteiro pode resultar em perda de precisão.")
         }
     } else {
