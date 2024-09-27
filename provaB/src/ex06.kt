@@ -19,15 +19,15 @@ data class Produto(val nome: String, val preco: Double) : Comparable<Produto> {
 fun main() {
     // Lista de Produtos
     val produtos = mutableListOf(
-        Produto("Produto A", 10.0),
-        Produto("Produto B", 5.0),
-        Produto("Produto C", 15.0)
+        Produto("Produto I", 10.0),
+        Produto("Produto X", 5.0),
+        Produto("Produto A", 15.0)
     )
 
     // Ordenando produtos por preço
-    produtos.sortBy { it.preco }
+    produtos.sortBy { it.nome }
     println("Produtos ordenados por preço:")
-    produtos.forEach { println("${it.nome}: R$ ${it.preco}") }
+    produtos.forEach { println("${it.nome}: R$ ${it.preco}") } //itera sobre os Produto da classe e printa por sortBy
 
     // Lista de Pessoas
     val pessoas = mutableListOf(
