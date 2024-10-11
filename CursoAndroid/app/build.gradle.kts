@@ -5,16 +5,20 @@ plugins {
 
 android {
     namespace = "br.com.anaszymczak.cursoandroid"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "br.com.anaszymczak.cursoandroid"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    tasks.register<Wrapper>("wrapper") {
+        gradleVersion = "5.6.4"
     }
 
     buildTypes {
@@ -34,7 +38,7 @@ android {
         jvmTarget = "1.8"
     }
 }
-
+tasks.register("prepareKotlinBuildScriptModel"){}
 dependencies {
 
     implementation("androidx.core:core-ktx:1.9.0")
